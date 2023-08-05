@@ -7,5 +7,7 @@ public class Main {
         LazyInitializedSingleton lazy = LazyInitializedSingleton.getInstance();
 
         DoubleCheckedLockingSingleton doubleChecked = DoubleCheckedLockingSingleton.getInstance();
+
+        StaticBlockInitializationSingleton staticBlock=StaticBlockInitializationSingleton.getInstance();
     }
 }
